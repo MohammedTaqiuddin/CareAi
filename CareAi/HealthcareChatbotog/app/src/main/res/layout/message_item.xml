@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- message_item.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+    <!-- User Message Layout (aligned to the right) -->
+    <TextView
+        android:id="@+id/aiMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ai_message_bubble"
+        android:gravity="start"
+        android:maxWidth="250dp"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+
+    <!-- AI Response Layout (aligned to the left) -->
+    <TextView
+        android:id="@+id/userMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/user_message_background"
+        android:gravity="end"
+        android:maxWidth="250dp"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+</LinearLayout>
